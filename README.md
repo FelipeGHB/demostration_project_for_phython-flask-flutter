@@ -2,7 +2,8 @@
 
 ## Contributors
 - [Felipe](https://github.com/FelipeGHB/about-felipe)
-- [Jack](https://github.com/JackWBeaver)
+- [Jack W Beaver](https://github.com/JackWBeaver) <br>
+<img src="Selfie.jpg" widt="150" height="200" /><br>
 
 ## About This Project
 In this project, we will use the following programming languages to show their capacities and our skills.
