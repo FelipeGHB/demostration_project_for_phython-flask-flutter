@@ -42,8 +42,8 @@ conda create -n flaskproject python=3.8 anaconda
 ```
 <img src="Flask1.PNG" width="600" height="300"/>
 Open up the command prompt and activate your virtual environment:
-```
-conda activate flaskproject
+```CMD
+conda active flaskproject
 ```
 <img src="Flask2.PNG" width="600" height="300"/>
 
