@@ -41,6 +41,7 @@ Create a virtual environment (flaskproject will be whatever you want to name you
 conda create -n flaskproject python=3.8 anaconda
 ```
 <img src="Flask1.PNG" width="600" height="300"/>
+
 Open up the command prompt and activate your virtual environment:
 ```CMD
 conda active flaskproject
@@ -49,10 +50,35 @@ conda active flaskproject
 
 Your virtual environment is now ready to go!
 
+### Running Your API
+Create a python file in visual studio code to use for your API (Make sure to **save** your .py file in your project folder):
+```Python
+import flask
+
+app = flask.Flask(__name__)
+app.config["DEBUG"] = True
+
+
+@app.route('/', methods=['GET'])
+def home():
+    return "<h1>Flask Project</h1><p>This site is an example showing how to use Flask.</p>"
+
+app.run()
+```
+Go back to your Powershell window to run your project:
+```Powershell
+pythong FlaskProject.py
+```
+<img src="Flask3.PNG" width="600" height="300"/>
+
+Coppy and your generate URL from Powershell (see picture above) and paste into Chrome:
+<img src="Flask4.PNG" width="600" height="300"/>
+
 ### References
 - Source showing information and a "User's Guide" for Flask: https://flask.palletsprojects.com/en/1.1.x/
 - Installation Link for Flask: https://pypi.org/project/Flask/
 - Help for creating a virtual environment: https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
+- Source for running API: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
 
 ## Flutter
 Felipe will be discussing Flutter.
