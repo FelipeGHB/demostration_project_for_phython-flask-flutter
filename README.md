@@ -8,7 +8,7 @@
 ## About This Project
 In this project, we will use Python to show what Flask and Flutter is, as well as their capacities and simple skills for both frameworks.
 
-## Tools Needed
+### Tools Needed
 - [Phython](https://www.python.org)
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 - [Flutter](https://flutter.dev)
@@ -40,10 +40,12 @@ Create a virtual environment (flaskproject will be whatever you want to name you
 ```Powershell
 conda create -n flaskproject python=3.8 anaconda
 ```
+<img src="Flask1.PNG" width="600" height="300"/>
 Open up the command prompt and activate your virtual environment:
 ```CMD
 conda activate flaskproject
 ```
+<img src="Flask2.PNG" width="600" height="300"/>
 Your virtual environment is now ready to go!
 
 ### References
