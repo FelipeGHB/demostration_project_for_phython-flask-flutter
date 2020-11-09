@@ -28,7 +28,7 @@ Jack will demonstrate how to download Flask and a basic overview of what it does
 - Visual Studio Code
 
 ### Introduction
-Flask is a micro web framework that is written in the Python programming language. It does not really require any tools or libraries, nor does it have any database components. It is referred to as a microframework that keeps the core "simple and also extensible".
+Flask is a micro web framework that is written in the Python programming language to create APIs. It does not really require any tools or libraries, nor does it have any database components. It is referred to as a microframework that keeps the core "simple and also extensible". Flask uses local objects internally so that you (the creator) don't have to pass objects from function to function in order to stay safe.
 
 ### Installation
 Open up PowerShell as Administrator
@@ -67,12 +67,14 @@ app.run()
 ```
 Go back to your Powershell window to run your project:
 ```Powershell
-pythong FlaskProject.py
+python FlaskProject.py
 ```
 <img src="Flask3.PNG" width="600" height="300"/>
 
-Coppy and your generate URL from Powershell (see picture above) and paste into Chrome:
+Copy and your generate URL from Powershell (see picture above) and paste into Chrome:
 <img src="Flask4.PNG" width="600" height="300"/>
+
+You have successfully created an API with Flask!
 
 ### References
 - Source showing information and a "User's Guide" for Flask: https://flask.palletsprojects.com/en/1.1.x/
